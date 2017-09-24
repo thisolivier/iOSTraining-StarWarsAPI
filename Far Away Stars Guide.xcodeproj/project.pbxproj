@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DDB1CB1F78618C005F1A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1CA1F78618C005F1A94 /* AppDelegate.swift */; };
+		09DDB1CD1F78618C005F1A94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1CC1F78618C005F1A94 /* ViewController.swift */; };
+		09DDB1D01F78618C005F1A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DDB1CE1F78618C005F1A94 /* Main.storyboard */; };
+		09DDB1D21F78618C005F1A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DDB1D11F78618C005F1A94 /* Assets.xcassets */; };
+		09DDB1D51F78618C005F1A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DDB1D31F78618C005F1A94 /* LaunchScreen.storyboard */; };
+		09DDB1E01F78618D005F1A94 /* Far_Away_Stars_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1DF1F78618D005F1A94 /* Far_Away_Stars_GuideTests.swift */; };
+		09DDB1EB1F78618D005F1A94 /* Far_Away_Stars_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1EA1F78618D005F1A94 /* Far_Away_Stars_GuideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09DDB1DC1F78618D005F1A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DDB1BF1F78618C005F1A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DDB1C61F78618C005F1A94;
+			remoteInfo = "Far Away Stars Guide";
+		};
+		09DDB1E71F78618D005F1A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09DDB1BF1F78618C005F1A94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09DDB1C61F78618C005F1A94;
+			remoteInfo = "Far Away Stars Guide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09DDB1C71F78618C005F1A94 /* Far Away Stars Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Far Away Stars Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DDB1CA1F78618C005F1A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09DDB1CC1F78618C005F1A94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09DDB1CF1F78618C005F1A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09DDB1D11F78618C005F1A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DDB1D41F78618C005F1A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09DDB1D61F78618C005F1A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DDB1DB1F78618D005F1A94 /* Far Away Stars GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Far Away Stars GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DDB1DF1F78618D005F1A94 /* Far_Away_Stars_GuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Far_Away_Stars_GuideTests.swift; sourceTree = "<group>"; };
+		09DDB1E11F78618D005F1A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DDB1E61F78618D005F1A94 /* Far Away Stars GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Far Away Stars GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DDB1EA1F78618D005F1A94 /* Far_Away_Stars_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Far_Away_Stars_GuideUITests.swift; sourceTree = "<group>"; };
+		09DDB1EC1F78618D005F1A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DDB1C41F78618C005F1A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DDB1D81F78618D005F1A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DDB1E31F78618D005F1A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DDB1BE1F78618C005F1A94 = {
+			isa = PBXGroup;
+			children = (
+				09DDB1C91F78618C005F1A94 /* Far Away Stars Guide */,
+				09DDB1DE1F78618D005F1A94 /* Far Away Stars GuideTests */,
+				09DDB1E91F78618D005F1A94 /* Far Away Stars GuideUITests */,
+				09DDB1C81F78618C005F1A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09DDB1C81F78618C005F1A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DDB1C71F78618C005F1A94 /* Far Away Stars Guide.app */,
+				09DDB1DB1F78618D005F1A94 /* Far Away Stars GuideTests.xctest */,
+				09DDB1E61F78618D005F1A94 /* Far Away Stars GuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DDB1C91F78618C005F1A94 /* Far Away Stars Guide */ = {
+			isa = PBXGroup;
+			children = (
+				09DDB1CA1F78618C005F1A94 /* AppDelegate.swift */,
+				09DDB1CC1F78618C005F1A94 /* ViewController.swift */,
+				09DDB1CE1F78618C005F1A94 /* Main.storyboard */,
+				09DDB1D11F78618C005F1A94 /* Assets.xcassets */,
+				09DDB1D31F78618C005F1A94 /* LaunchScreen.storyboard */,
+				09DDB1D61F78618C005F1A94 /* Info.plist */,
+			);
+			path = "Far Away Stars Guide";
+			sourceTree = "<group>";
+		};
+		09DDB1DE1F78618D005F1A94 /* Far Away Stars GuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				09DDB1DF1F78618D005F1A94 /* Far_Away_Stars_GuideTests.swift */,
+				09DDB1E11F78618D005F1A94 /* Info.plist */,
+			);
+			path = "Far Away Stars GuideTests";
+			sourceTree = "<group>";
+		};
+		09DDB1E91F78618D005F1A94 /* Far Away Stars GuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09DDB1EA1F78618D005F1A94 /* Far_Away_Stars_GuideUITests.swift */,
+				09DDB1EC1F78618D005F1A94 /* Info.plist */,
+			);
+			path = "Far Away Stars GuideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09DDB1C61F78618C005F1A94 /* Far Away Stars Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DDB1EF1F78618D005F1A94 /* Build configuration list for PBXNativeTarget "Far Away Stars Guide" */;
+			buildPhases = (
+				09DDB1C31F78618C005F1A94 /* Sources */,
+				09DDB1C41F78618C005F1A94 /* Frameworks */,
+				09DDB1C51F78618C005F1A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Far Away Stars Guide";
+			productName = "Far Away Stars Guide";
+			productReference = 09DDB1C71F78618C005F1A94 /* Far Away Stars Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09DDB1DA1F78618D005F1A94 /* Far Away Stars GuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DDB1F21F78618D005F1A94 /* Build configuration list for PBXNativeTarget "Far Away Stars GuideTests" */;
+			buildPhases = (
+				09DDB1D71F78618D005F1A94 /* Sources */,
+				09DDB1D81F78618D005F1A94 /* Frameworks */,
+				09DDB1D91F78618D005F1A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DDB1DD1F78618D005F1A94 /* PBXTargetDependency */,
+			);
+			name = "Far Away Stars GuideTests";
+			productName = "Far Away Stars GuideTests";
+			productReference = 09DDB1DB1F78618D005F1A94 /* Far Away Stars GuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09DDB1E51F78618D005F1A94 /* Far Away Stars GuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DDB1F51F78618D005F1A94 /* Build configuration list for PBXNativeTarget "Far Away Stars GuideUITests" */;
+			buildPhases = (
+				09DDB1E21F78618D005F1A94 /* Sources */,
+				09DDB1E31F78618D005F1A94 /* Frameworks */,
+				09DDB1E41F78618D005F1A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09DDB1E81F78618D005F1A94 /* PBXTargetDependency */,
+			);
+			name = "Far Away Stars GuideUITests";
+			productName = "Far Away Stars GuideUITests";
+			productReference = 09DDB1E61F78618D005F1A94 /* Far Away Stars GuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09DDB1BF1F78618C005F1A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Olivier Butler";
+				TargetAttributes = {
+					09DDB1C61F78618C005F1A94 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					09DDB1DA1F78618D005F1A94 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09DDB1C61F78618C005F1A94;
+					};
+					09DDB1E51F78618D005F1A94 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09DDB1C61F78618C005F1A94;
+					};
+				};
+			};
+			buildConfigurationList = 09DDB1C21F78618C005F1A94 /* Build configuration list for PBXProject "Far Away Stars Guide" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09DDB1BE1F78618C005F1A94;
+			productRefGroup = 09DDB1C81F78618C005F1A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DDB1C61F78618C005F1A94 /* Far Away Stars Guide */,
+				09DDB1DA1F78618D005F1A94 /* Far Away Stars GuideTests */,
+				09DDB1E51F78618D005F1A94 /* Far Away Stars GuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09DDB1C51F78618C005F1A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DDB1D51F78618C005F1A94 /* LaunchScreen.storyboard in Resources */,
+				09DDB1D21F78618C005F1A94 /* Assets.xcassets in Resources */,
+				09DDB1D01F78618C005F1A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DDB1D91F78618D005F1A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DDB1E41F78618D005F1A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DDB1C31F78618C005F1A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DDB1CD1F78618C005F1A94 /* ViewController.swift in Sources */,
+				09DDB1CB1F78618C005F1A94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DDB1D71F78618D005F1A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DDB1E01F78618D005F1A94 /* Far_Away_Stars_GuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DDB1E21F78618D005F1A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DDB1EB1F78618D005F1A94 /* Far_Away_Stars_GuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09DDB1DD1F78618D005F1A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DDB1C61F78618C005F1A94 /* Far Away Stars Guide */;
+			targetProxy = 09DDB1DC1F78618D005F1A94 /* PBXContainerItemProxy */;
+		};
+		09DDB1E81F78618D005F1A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09DDB1C61F78618C005F1A94 /* Far Away Stars Guide */;
+			targetProxy = 09DDB1E71F78618D005F1A94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09DDB1CE1F78618C005F1A94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DDB1CF1F78618C005F1A94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09DDB1D31F78618C005F1A94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DDB1D41F78618C005F1A94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09DDB1ED1F78618D005F1A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09DDB1EE1F78618D005F1A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09DDB1F01F78618D005F1A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				INFOPLIST_FILE = "Far Away Stars Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oliviertests.Far-Away-Stars-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09DDB1F11F78618D005F1A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				INFOPLIST_FILE = "Far Away Stars Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oliviertests.Far-Away-Stars-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09DDB1F31F78618D005F1A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				INFOPLIST_FILE = "Far Away Stars GuideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oliviertests.Far-Away-Stars-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Far Away Stars Guide.app/Far Away Stars Guide";
+			};
+			name = Debug;
+		};
+		09DDB1F41F78618D005F1A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				INFOPLIST_FILE = "Far Away Stars GuideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oliviertests.Far-Away-Stars-GuideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Far Away Stars Guide.app/Far Away Stars Guide";
+			};
+			name = Release;
+		};
+		09DDB1F61F78618D005F1A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				INFOPLIST_FILE = "Far Away Stars GuideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oliviertests.Far-Away-Stars-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Far Away Stars Guide";
+			};
+			name = Debug;
+		};
+		09DDB1F71F78618D005F1A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNHB9B5GX6;
+				INFOPLIST_FILE = "Far Away Stars GuideUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "oliviertests.Far-Away-Stars-GuideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Far Away Stars Guide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DDB1C21F78618C005F1A94 /* Build configuration list for PBXProject "Far Away Stars Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DDB1ED1F78618D005F1A94 /* Debug */,
+				09DDB1EE1F78618D005F1A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DDB1EF1F78618D005F1A94 /* Build configuration list for PBXNativeTarget "Far Away Stars Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DDB1F01F78618D005F1A94 /* Debug */,
+				09DDB1F11F78618D005F1A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DDB1F21F78618D005F1A94 /* Build configuration list for PBXNativeTarget "Far Away Stars GuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DDB1F31F78618D005F1A94 /* Debug */,
+				09DDB1F41F78618D005F1A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DDB1F51F78618D005F1A94 /* Build configuration list for PBXNativeTarget "Far Away Stars GuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DDB1F61F78618D005F1A94 /* Debug */,
+				09DDB1F71F78618D005F1A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09DDB1BF1F78618C005F1A94 /* Project object */;
+}
