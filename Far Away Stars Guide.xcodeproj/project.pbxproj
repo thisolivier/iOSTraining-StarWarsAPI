@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		09DDB1CB1F78618C005F1A94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1CA1F78618C005F1A94 /* AppDelegate.swift */; };
-		09DDB1CD1F78618C005F1A94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1CC1F78618C005F1A94 /* ViewController.swift */; };
+		09DDB1CD1F78618C005F1A94 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1CC1F78618C005F1A94 /* PeopleTableViewController.swift */; };
 		09DDB1D01F78618C005F1A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DDB1CE1F78618C005F1A94 /* Main.storyboard */; };
 		09DDB1D21F78618C005F1A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DDB1D11F78618C005F1A94 /* Assets.xcassets */; };
 		09DDB1D51F78618C005F1A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DDB1D31F78618C005F1A94 /* LaunchScreen.storyboard */; };
 		09DDB1E01F78618D005F1A94 /* Far_Away_Stars_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1DF1F78618D005F1A94 /* Far_Away_Stars_GuideTests.swift */; };
 		09DDB1EB1F78618D005F1A94 /* Far_Away_Stars_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1EA1F78618D005F1A94 /* Far_Away_Stars_GuideUITests.swift */; };
+		09DDB1F91F7864C9005F1A94 /* StarNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DDB1F81F7864C9005F1A94 /* StarNavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		09DDB1C71F78618C005F1A94 /* Far Away Stars Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Far Away Stars Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DDB1CA1F78618C005F1A94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09DDB1CC1F78618C005F1A94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09DDB1CC1F78618C005F1A94 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
 		09DDB1CF1F78618C005F1A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09DDB1D11F78618C005F1A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DDB1D41F78618C005F1A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		09DDB1E61F78618D005F1A94 /* Far Away Stars GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Far Away Stars GuideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DDB1EA1F78618D005F1A94 /* Far_Away_Stars_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Far_Away_Stars_GuideUITests.swift; sourceTree = "<group>"; };
 		09DDB1EC1F78618D005F1A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DDB1F81F7864C9005F1A94 /* StarNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				09DDB1CA1F78618C005F1A94 /* AppDelegate.swift */,
-				09DDB1CC1F78618C005F1A94 /* ViewController.swift */,
+				09DDB1CC1F78618C005F1A94 /* PeopleTableViewController.swift */,
+				09DDB1F81F7864C9005F1A94 /* StarNavViewController.swift */,
 				09DDB1CE1F78618C005F1A94 /* Main.storyboard */,
 				09DDB1D11F78618C005F1A94 /* Assets.xcassets */,
 				09DDB1D31F78618C005F1A94 /* LaunchScreen.storyboard */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DDB1CD1F78618C005F1A94 /* ViewController.swift in Sources */,
+				09DDB1F91F7864C9005F1A94 /* StarNavViewController.swift in Sources */,
+				09DDB1CD1F78618C005F1A94 /* PeopleTableViewController.swift in Sources */,
 				09DDB1CB1F78618C005F1A94 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
